@@ -9,7 +9,7 @@ const defaultDataset = {
       { content: '学習コミュニティについて知りたい', nextId: 'community' },
       { content: 'とにかくお話がしたい', nextId: 'dating' }
     ],
-    question: 'こんにちは！ご用件をどうぞ。'
+    question: 'こんにちは！ご用件はなんですか？'
   },
   job_offer: {
     answers: [

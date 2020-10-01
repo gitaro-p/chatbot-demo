@@ -1,16 +1,16 @@
 import React from 'react';
 import { Answer } from './index';
 
-const AnswersList = props => {
-  return (
+const AnswersList = (props) => {
+  return(
     <div className="c-grid_answer">
-      <Answer />
-      <Answer />
-      <Answer />
-      <Answer />
-      12
+      {props.answers.map((value, index) => {
+        return <Answer const ={value.content} key={index.toString()} />
+      })}
+      
     </div>
-  );
-};
+  )
+}
+
 
 export default AnswersList;
